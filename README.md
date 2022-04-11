@@ -13,7 +13,7 @@ By the end of this class you should be able to:
 * Transform a dataset of connections between users into a network
 * Visualize a network of connections between Twitter users and save the output to file
 
-## Instructions for Students
+## Instructions for Students (Before Coming to Class)
 
 ### You need a Twitter Account to work through the material!
 
@@ -48,6 +48,19 @@ git branch main
 
 *NOTE*: Git does not like you to switch branches with uncommitted changes.
 Before you switch branches, be sure to commit any changes to the files.
+
+### Installing required packages
+
+This lecture makes use of additional `R` packages:
+
+* `tidyr`
+* `dplyr`
+* `readr`
+* `rtweet`
+* `tidygraph`
+* `ggraph`
+
+Install these packages before coming to class.
 
 ## Meta-Information
 
