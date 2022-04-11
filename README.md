@@ -21,7 +21,7 @@ Parts of this lecture use the Twitter API to get access to recent tweets.
 To interact with the Twitter API you need to have an account with Twitter.
 Sign up for an account before coming to class!
 
-### Accessing Materials
+### Accessing Materials & Following Along Live in Class
 
 Clone a copy of this repository using Git.
 To clone a copy of this repository to your own PC:
