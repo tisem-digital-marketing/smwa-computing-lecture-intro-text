@@ -27,7 +27,7 @@ Clone a copy of this repository using Git.
 To clone a copy of this repository to your own PC:
 
 ```{bash, eval = FALSE}
-git clone https://github.com/tisem-digital-marketing/smwa-lab-01.git
+git clone https://github.com/tisem-digital-marketing/smwa-computing-lecture-twitter-networks.git
 ```
 
 Once you have cloned the files, open the cloned repository in RStudio as an RStudio project and use the empty R scripts to follow along with the lecture as we work through material.
