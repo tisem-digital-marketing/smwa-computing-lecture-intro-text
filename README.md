@@ -1,4 +1,4 @@
-# Social Media and Web Analytics: Computing Lecture 1
+# Social Media and Web Analytics: Computing Lecture 2
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![lifecycle](https://img.shields.io/badge/version-2022-red.svg)]()
@@ -7,19 +7,8 @@
 
 By the end of this class you should be able to:
 
-* Use the Twitter API to access recent tweets that contain a set of keywords
-* Restrict the output of the Twitter API to return tweets based on geo-location, language and type of tweet (retweet, replies etc)
-* Transform a dataset of Tweets to only contain connections between users based on retweets or mentions
-* Transform a dataset of connections between users into a network
-* Visualize a network of connections between Twitter users and save the output to file
-
+TBA
 ## Instructions for Students (Before Coming to Class)
-
-### You need a Twitter Account to work through the material!
-
-Parts of this lecture use the Twitter API to get access to recent tweets.
-To interact with the Twitter API you need to have an account with Twitter.
-Sign up for an account before coming to class!
 
 ### Accessing Materials & Following Along Live in Class
 
@@ -27,7 +16,7 @@ Clone a copy of this repository using Git.
 To clone a copy of this repository to your own PC:
 
 ```{bash, eval = FALSE}
-git clone https://github.com/tisem-digital-marketing/smwa-computing-lecture-twitter-networks.git
+git clone https://github.com/tisem-digital-marketing/smwa-computing-lecture-intro-text.git
 ```
 
 Once you have cloned the files, open the cloned repository in RStudio as an RStudio project and use the empty R scripts to follow along with the lecture as we work through material.
@@ -56,9 +45,13 @@ This lecture makes use of additional `R` packages:
 * `tidyr`
 * `dplyr`
 * `readr`
-* `rtweet`
-* `tidygraph`
-* `ggraph`
+* `tibble`
+* `ggplot2`
+* `stringr`
+* `tidytext`
+* `textstem`
+* `reshape2`
+* `wordcloud`
 
 Install these packages before coming to class.
 
@@ -75,13 +68,13 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Suggested Citation
 
-Deer, Lachlan. 2022. Social Media and Web Analytics: Computing Lecture 1 - Collecting Social Media Data and Visualizing Social Media Networks. Tilburg University. url = "https://github.com/tisem-digital-marketing/smwa-computing-lecture-twitter-networks"
+Deer, Lachlan. 2022. Social Media and Web Analytics: Computing Lecture 2 - Introduction to Text as Data Methods. Tilburg University. url = "https://github.com/tisem-digital-marketing/smwa-computing-lecture-intro-text"
 
 ```{r, engine='out', eval = FALSE}
-@misc{smwa-compllecture01-2022,
-      title={"Social Media and Web Analytics: Computing Lecture 1 - Collecting Social Media Data and Visualizing Social Media Networks"},
+@misc{smwa-compllecture02-2022,
+      title={"Social Media and Web Analytics: Computing Lecture 2 - Introduction to Text as Data"},
       author={Lachlan Deer},
       year={2022},
-      url = "https://github.com/tisem-digital-marketing/smwa-computing-lecture-twitter-networks"
+      url = "https://github.com/tisem-digital-marketing/smwa-computing-lecture-intro-text"
 }
 ```
