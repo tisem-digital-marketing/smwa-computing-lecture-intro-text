@@ -18,8 +18,6 @@ library(textstem)  # stem words
 library(reshape2)  # cast from long to wide and vice versa
 library(wordcloud) # plot wordclouds
 
-# --- Download Data --- #
-
 # --- Load Data --- #
 
 # --- Reducing the Data Size --- #
