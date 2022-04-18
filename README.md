@@ -7,7 +7,16 @@
 
 By the end of this class you should be able to:
 
-TBA
+* Explain the advantages and disadvantages of using text as data
+* Compute the number of characters and words within a piece of text
+* Define the terms unigram, token, stopword, word stem and TF-IDF 
+* Transform a dataset of text into a dataset of tokens
+* Remove standard and customized stopwords from a data set of tokens
+* Visualize the most common words used in a data set of tokens
+* Lemmatize a set of tokens and explain the advantages of doing so
+* Compute a TF-IDF metric on a set of tokens
+* Explain the output of a statistical command that produces TF-IDF scores
+* Visualize word clouds that show common or distinguishing words between two categories of text
 ## Instructions for Students (Before Coming to Class)
 
 ### Accessing Materials & Following Along Live in Class
@@ -42,16 +51,17 @@ Before you switch branches, be sure to commit any changes to the files.
 
 This lecture makes use of additional `R` packages:
 
-* `tidyr`
-* `dplyr`
-* `readr`
-* `tibble`
-* `ggplot2`
-* `stringr`
-* `tidytext`
-* `textstem`
-* `reshape2`
-* `wordcloud`
+* library(readr)  
+* library(janitor) 
+* library(dplyr) 
+* library(tibble)
+* library(tidyr)  
+* library(ggplot2) 
+* library(stringr)
+* library(tidytext)
+* library(textstem)  
+* library(reshape2) 
+* library(wordcloud) 
 
 Install these packages before coming to class.
 
