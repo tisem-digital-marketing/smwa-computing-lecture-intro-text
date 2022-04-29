@@ -51,17 +51,17 @@ Before you switch branches, be sure to commit any changes to the files.
 
 This lecture makes use of additional `R` packages:
 
-* library(readr)  
-* library(janitor) 
-* library(dplyr) 
-* library(tibble)
-* library(tidyr)  
-* library(ggplot2) 
-* library(stringr)
-* library(tidytext)
-* library(textstem)  
-* library(reshape2) 
-* library(wordcloud) 
+* janitor 
+* readr  
+* dplyr 
+* tibble
+* tidyr  
+* ggplot2
+* stringr
+* tidytext
+* textstem  
+* reshape2 
+* wordcloud
 
 Install these packages before coming to class.
 
