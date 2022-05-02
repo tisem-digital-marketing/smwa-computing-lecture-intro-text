@@ -15,6 +15,7 @@ library(ggplot2)   # plotting
 library(stringr)   # work with strings
 library(tidytext)  # work with text - main functionality
 library(textstem)  # stem words
+library(tokenizers) # count words
 library(reshape2)  # cast from long to wide and vice versa
 library(wordcloud) # plot wordclouds
 
@@ -39,7 +40,7 @@ select_categ <-
 select_categ <- 
     select_categ %>%
     mutate(n_char = nchar(review_content),
-           n_words = str_count(review_content, '\\w+')
+           n_words = count_words(review_content)
            )
 
 select_categ %>%
