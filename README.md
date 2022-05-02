@@ -60,6 +60,7 @@ This lecture makes use of additional `R` packages:
 * stringr
 * tidytext
 * textstem  
+* tokenizers
 * reshape2 
 * wordcloud
 
