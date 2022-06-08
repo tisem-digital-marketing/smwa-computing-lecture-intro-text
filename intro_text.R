@@ -48,7 +48,7 @@ select_categ %>%
     geom_histogram(
        aes(x = n_words)
     ) +
-    scale_x_continuous(trans = 'log1p') +
+    #scale_x_continuous(trans = 'log1p') +
     facet_wrap(~category)
 
 # --- Reviews to Tokens --- #
@@ -78,8 +78,12 @@ common_words <-
 common_words %>%
     group_by(category) %>%
     top_n(25) %>%
-    ggplot(aes(n, 
-               reorder_within(word, n, category)
+    # ggplot(aes(n, 
+    #            reorder_within(word, n, category)
+    #            )
+    #        ) +
+    ggplot(aes(n,
+               word
                )
            ) +
     geom_col() +
